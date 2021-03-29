@@ -1,0 +1,123 @@
+/* Brit uses % for almost everything, and rems for fonts and ocassionaly
+ vh for heights */
+* {
+  box-sizing: border-box; /* When I give you a width, respect the width
+  I've given you, if I add padding or a border apply it within that width not
+  in addition to */
+  padding: 0;
+  margin: 0;
+  max-width: 100%; /* you can never be bigger thatn your parents*/
+  /* border: 1px solid grey; */
+}
+
+/* General Styles */
+html {
+  /* The defaul browser font-size is 16px this makes it so that 1 rem,
+  is equal to 10px. Accesible */
+  font-size: 62.5%; 
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #525252;
+}
+
+a {
+  color: #cecece;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 2s;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1, h2 {
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+  text-align: center;
+  /* font-family: 'Nunito', sans-serif ; */
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+section {
+  padding: 4% 0;
+}
+
+/* Header section styles */
+nav {
+  padding: 2% 0;
+  background-color: rgba(74, 184, 184, 0.8);
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+/* Home section Styles */
+#home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-image: url(https://images.unsplash.com/photo-1569615313731-7407da4f4594?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home button {
+  color: #506960;
+  padding: 3% 5%;
+  border-radius: 10px;
+  border: 3px solid #506960;
+  transition: 2s;
+}
+
+#home button:hover {
+  background-color: #506960;
+  color: white;
+}
+
+/* About Section */
+#about div {
+  width: 60%;
+  margin: 0 auto;
+  padding: 4%;
+  border: 3px solid #506960;
+  background-color: #fff;
+}
+
+#about {
+  background-color:rgba(74, 184, 184, 0.8);
+}
+
+footer {
+  background-color: #1c5841;
+  color: #fff;
+  text-align: center;
+}
+
+footer button {
+  padding: 2% 4%;
+  border-radius: 10px;
+  color: #fff;
+  border: 3px solid #fff;
+  background-color: #506960;
+  transition: 2s;
+  margin-top: 2%;
+}
+
+footer button:hover {
+  background-color: #fff;
+  color: #506960;
+}
