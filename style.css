@@ -14,7 +14,7 @@
 html {
   /* The defaul browser font-size is 16px this makes it so that 1 rem,
   is equal to 10px. Accesible */
-  font-size: 62.5%; 
+  font-size: 62.5%;
 }
 
 body {
@@ -38,7 +38,6 @@ h1, h2 {
   letter-spacing: 3px;
   font-size: 2.5rem;
   text-align: center;
-  /* font-family: 'Nunito', sans-serif ; */
 }
 
 h1 {
@@ -69,7 +68,7 @@ nav {
   align-items: center;
   text-align: center;
   color: #fff;
-  background-image: url(https://images.unsplash.com/photo-1569615313731-7407da4f4594?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+  background-image: url(./laptop2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
