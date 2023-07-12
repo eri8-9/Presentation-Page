@@ -18,20 +18,20 @@ html {
 }
 
 body {
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1.5;
   color: #525252;
 }
 
 a {
-  color: #cecece;
+  color: #ffffff;
   text-decoration: none;
   letter-spacing: 2px;
-  transition: 2s;
+  transition: 1s;
 }
 
 a:hover {
-  color: #fff;
+  color: rgba(43, 255, 0, 0.57);
 }
 
 h1, h2 {
@@ -50,8 +50,8 @@ section {
 
 /* Header section styles */
 nav {
-  padding: 2% 0;
-  background-color: rgba(74, 184, 184, 0.8);
+  padding: 1% 0;
+  background-color: rgba(28, 117, 117, 0.51);
   display: flex;
   justify-content: space-evenly;
   position: fixed;
@@ -62,7 +62,7 @@ nav {
 
 /* Home section Styles */
 #home {
-  height: 90vh;
+  height: 97vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,31 +74,52 @@ nav {
   background-attachment: fixed;
 }
 
+#home h1 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px 20px 0 0;
+  width: 32rem;
+}
+
+#home h2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 20px;
+}
+
 #home button {
-  color: #506960;
+  color: #ffffff;
   padding: 3% 5%;
   border-radius: 10px;
-  border: 3px solid #506960;
-  transition: 2s;
+  border:2px solid rgba(255, 255, 255, 1);
+  transition: 1s;
+  background-color: rgba(128, 128, 128, 0.47);
 }
 
 #home button:hover {
-  background-color: #506960;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#home div h2 {
+  margin-bottom: 2rem;
 }
 
 /* About Section */
-#about div {
-  width: 60%;
-  margin: 0 auto;
-  padding: 4%;
-  border: 3px solid #506960;
-  background-color: #fff;
+#about {
+  background-color: rgb(28, 117, 117);
+  text-align: center;
 }
 
-#about {
-  background-color:rgba(74, 184, 184, 0.8);
-  text-align: center;
+#about div {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1% 4% 2%;
+  border: 3px solid #506960;
+  background-color: #fff;
+  border-radius: 3rem;
+}
+
+#about div h2 {
+  margin-bottom: 2rem;
 }
 
 footer {
