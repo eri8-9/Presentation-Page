@@ -1,72 +1,95 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="mobile.css" type="text/css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="mobile.css" type="text/css">
+</head>
 
-  <body>
-    <header>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+<body>
+<header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <section id="home">
-      <div>
-        <h1>Hi, I'm Erick!</h1>
-        <h2>Web Developer</h2>
-        <a href="mailto:er.contreras@hotmail.com">
-          <button>Email me!</button>
-        </a>
-      </div>
-    </section>
+<section id="home">
+  <div>
+    <h1>Hi, I'm Erick!</h1>
+    <h2>Web Developer</h2>
+    <a href="mailto:er.contreras@hotmail.com">
+      <button>Email me!</button>
+    </a>
+  </div>
+</section>
 
-    <section id="about">
-      <div>
-        <h2 id="about-heading">About me</h2>
-        <p id="about-text">
-          I am an experienced developer specializing in web development. I can assist you in bringing your website or web application to life,
-          regardless of the design concept you envision for your business. From simple landing pages to full-stack web applications,
-          I possess the skills and expertise to meet your needs. If you're ready to get started, please don't hesitate to contact me.
-          I look forward to collaborating with you.
-        </p>
-      </div>
-    </section>
+<section id="about">
+  <div>
+    <h2 id="about-heading">About me</h2>
+    <p id="about-text">
+      I am an experienced developer specializing in web development. I can assist you in bringing your website or web
+      application to life,
+      regardless of the design concept you envision for your business. From simple landing pages to full-stack web
+      applications,
+      I possess the skills and expertise to meet your needs. If you're ready to get started, please don't hesitate to
+      contact me.
+      I look forward to collaborating with you.
+    </p>
+  </div>
+</section>
 
-    <footer id="contact">
-      <h2 id="contact-heading">Get in Touch!</h2>
-      <p id="contact-text">
-        Thank you for your interest! Please feel free to provide details about your desired web app or website.
-        Describe the purpose, functionality, and any specific features or design preferences you have in mind. Additionally,
-        if you have a timeline or budget in place, do let me know. The more information you provide,
-        the better I can understand your requirements and provide you with an accurate proposal or estimate.
-      </p>
+<div id="contact">
+  <h2 id="contact-heading">Get in Touch!</h2>
+  <p id="contact-text">
+    Thank you for your interest! Please feel free to provide details about your desired web app or website.
+    Describe the purpose, functionality, and any specific features or design preferences you have in mind. Additionally,
+    if you have a timeline or budget in place, do let me know. The more information you provide,
+    the better I can understand your requirements and provide you with an accurate proposal or estimate.
+  </p>
 
-      <form action="https://formspree.io/f/maygylak" method="POST">
-        <label>
-          <input type="text" name="topic" placeholder="Topic">
-        </label>
+  <form action="https://formspree.io/f/maygylak" method="POST">
+    <label>
+      <input type="text" name="topic" placeholder="Topic">
+    </label>
 
-        <label>
-          <input type="email" name="email" placeholder="Email">
-        </label>
+    <label>
+      <input type="email" name="email" placeholder="Email">
+    </label>
 
-        <label>
-          <textarea placeholder="Message" name="message"></textarea>
-        </label>
+    <label>
+      <textarea placeholder="Message" name="message"></textarea>
+    </label>
 
-        <button type="submit">Send</button>
-      </form>
-    </footer>
+    <button type="submit">Send</button>
+  </form>
+</div>
 
-    <script src="script.js"></script>
-  </body>
+<footer>
+  <ul class="icons-footer">
+    <li>
+      <a target="_blank" href="https://github.com/er-contreras"><img src="./icons/github.png" alt="github-link"/></a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.linkedin.com/in/er-contreras/"><img src="./icons/in.png" alt="linkedin-link"/></a>
+    </li>
+    <li>
+      <a target="_blank" href="https://wellfound.com/u/ercontreras"><img src="./icons/2.png" alt="Angelist-link"/></a>
+    </li>
+    <li>
+      <a target="_blank" href="https://twitter.com/er_contreras_"><img src="./icons/twitter.png" alt="twitter-link"/></a>
+    </li>
+    <li>
+      <a href="#"><img src="icons/M.png" alt="medium-link"/></a>
+    </li>
+  </ul>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
