@@ -103,6 +103,10 @@ nav {
   margin-bottom: 2rem;
 }
 
+.add-pointer-to-button {
+  cursor: pointer;
+}
+
 /* About Section */
 #about {
   background-color: rgb(28, 117, 117);
