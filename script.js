@@ -12,8 +12,12 @@ window.addEventListener('resize', function() {
     contactText.textContent = 'Please provide details about your project. Let\'s discuss how I can help you!';
   } else {
     aboutHeading.textContent = 'About me';
-    aboutText.textContent = 'I am an experienced developer specializing in web development. I can assist you in bringing your website or web application to life, regardless of the design concept you envision for your business. From simple landing pages to full-stack web applications, I possess the skills and expertise to meet your needs. If you\'re ready to get started, please don\'t hesitate to contact me. I look forward to collaborating with you.';
+    aboutText.textContent = 'I\'m an experienced web developer skilled in turning your design concepts into reality.\n' +
+      'Whether you need a basic landing page or a full-stack web application, I have the expertise to meet your requirements.\n' +
+      'Let\'s get started - contact me, and let\'s collaborate!';
     contactHeading.textContent = 'Get in Touch!';
-    contactText.textContent = 'Thank you for your interest! Please feel free to provide details about your desired web app or website. Describe the purpose, functionality, and any specific features or design preferences you have in mind. Additionally, if you have a timeline or budget in place, do let me know. The more information you provide, the better I can understand your requirements and provide you with an accurate proposal or estimate.';
+    contactText.textContent = 'Thank you for your interest! Please share details about your web app or website, including its purpose, functionality, design preferences,\n' +
+      'and any specific features you have in mind. If you have a timeline or budget, please mention them. The more details you provide,\n' +
+      'the better I can offer an accurate proposal.';
   }
 });
