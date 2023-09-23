@@ -51,7 +51,7 @@ section {
 /* Header section styles */
 nav {
   padding: 1% 0;
-  background-color: rgba(28, 117, 117, 0.51);
+  background-color: rgba(39, 159, 159, 0.71);
   display: flex;
   justify-content: space-evenly;
   position: fixed;
@@ -96,7 +96,7 @@ nav {
 
 #home button:hover {
   background-color: #ffffff;
-  color: #000000;
+  color: #4f4f4f;
 }
 
 #home div h2 {
@@ -109,7 +109,7 @@ nav {
 
 /* About Section */
 #about {
-  background-color: rgb(28, 117, 117);
+  background-color: rgb(39, 159, 159);
   text-align: center;
 }
 
@@ -127,7 +127,7 @@ nav {
 }
 
 #contact {
-  background-color: rgb(28, 117, 117);
+  background-color: rgb(39, 159, 159);
   color: #fff;
   text-align: center;
   padding: 0 0 5rem 0;
@@ -165,18 +165,21 @@ form button {
   height: 4rem;
   margin: 0 auto;
   border-radius: 10px;
-  border: none;
+  border: 2px solid rgba(39, 159, 159, 0.55);
   font-size: 1.8rem;
+  background-color: rgba(34, 126, 120, 0.5);
+  color: #fff;
+  transition: 1s;
 }
 
 form button:hover {
-  background-color: rgb(194, 65, 65);
-  color: rgba(255, 255, 255, 0.64);
+  background-color: rgb(227, 227, 227);
+  color: rgb(84, 84, 84);
 }
 
 /* Footer Section */
 footer {
-  background-color: rgb(15, 61, 61);
+  background-color: rgb(23, 134, 134);
   color: #fff;
   text-align: center;
 }
