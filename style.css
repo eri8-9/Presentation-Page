@@ -169,6 +169,11 @@ form button {
   font-size: 1.8rem;
 }
 
+form button:hover {
+  background-color: rgb(194, 65, 65);
+  color: rgba(255, 255, 255, 0.64);
+}
+
 /* Footer Section */
 footer {
   background-color: rgb(15, 61, 61);
