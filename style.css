@@ -107,6 +107,11 @@ nav {
   cursor: pointer;
 }
 
+.fade:hover {
+  color: red;
+  cursor: pointer;
+}
+
 /* About Section */
 #about {
   background-color: rgb(39, 159, 159);

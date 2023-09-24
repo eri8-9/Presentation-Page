@@ -21,3 +21,31 @@ window.addEventListener('resize', function() {
       'the better I can offer an accurate proposal.';
   }
 });
+
+// Change color of the h1 text letter by letter when the mouse hovers over it
+let h1 = document.querySelector('h1');
+let h1Text = h1.textContent;
+let h1TextArray = h1Text.split('');
+h1.textContent = '';
+
+for (let i = 0; i < h1TextArray.length; i++) {
+  h1.innerHTML += '<span>' + h1TextArray[i] + '</span>';
+}
+
+let char = 0;
+let timer = setInterval(onTick, 50);
+
+function onTick() {
+  let span = h1.querySelectorAll('span')[char];
+  span.classList.add('fade');
+  char++;
+
+  if (char === h1TextArray.length) {
+    complete();
+  }
+}
+
+function complete() {
+  clearInterval(timer);
+  timer = null;
+}
